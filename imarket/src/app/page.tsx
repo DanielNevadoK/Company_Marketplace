@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { LandingPage } from "./components/landingPage";
-import { Header } from "./components/header";
+import { LandingPage } from "../components/landingPage";
+import { Header } from "../components/header";
 
 export default function Home() {
   return (
