@@ -19,7 +19,7 @@ export const Header = () => {
             </Button>
           </Link>
           <Link
-            href="/"          >
+            href="/private"          >
            <Button  effect={"hoverUnderline"} className="flex items-center justify-center bg-transparent hover:bg-transparent after:bg-white">
             <h2 className="flex items-center justify-center text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">Login / Register</h2>
             </Button>

@@ -22,7 +22,7 @@ export async function GET(request: NextRequest) {
       redirect(next)
     }
   }
-
-  // redirect the user to an error page with some instructions
+  
+  // This will redirect the user to error
   redirect('/error')
 }
