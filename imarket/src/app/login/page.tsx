@@ -1,5 +1,7 @@
 import { Form } from "react-hook-form";
 import { login, signup } from "./actions";
+import Link from "next/link";
+
 
 export default function LoginPage() {
   return (
@@ -96,11 +98,10 @@ export default function LoginPage() {
           {/* My Login Btn */}
           <button
             formAction={login}
-            className="w-full text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-6"
+            className="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-6"
           >
             Login
           </button>
-
           {/* The Signup Link/Btn */}
           <div className="text-sm font-light text-gray-500 text-center">
             Don't have an account yet?{" "}
