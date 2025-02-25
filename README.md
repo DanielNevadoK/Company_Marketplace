@@ -45,13 +45,13 @@ Below, you can see the **project requirements** and their completion status:
 ---
 
 ## **📌 Scope of the Task**
-### ** 1 User Authentication (Supabase Auth)**
+### 1 User Authentication (Supabase Auth)
 ✅ Implement **Supabase authentication**.  
 ✅ Users should be able to **sign up, log in, and log out**.  
 🟥 **Restrict actions** like buying or selling to logged-in users. (In progress) 
 ✅ **Guests can only browse** company listings.  
 
-### ** 2 Company Listings**
+### 2 Company Listings
 ✅ Fetch & display a **list of companies**.  
 ✅ Use a **dummy API** (`DummyJSON`, `Fake Store API`, or a mock JSON file).  
 🟥 Each listing must include:  (In progress)
@@ -63,22 +63,22 @@ Below, you can see the **project requirements** and their completion status:
   - **Seller information**  
 🟥 **Implement Search & Filters** (by **price, industry, and keywords**).  (In progress)
 
-### ** 3 Selling a Company**
+###  3 Selling a Company
 🟥 **Logged-in users** should be able to list a company for sale.  (In progress)
 🟥 **Listings must be stored in Supabase**.  (In progress)
 🟥 Listings should be displayed on the **marketplace**.  (In Progress)
 
-### ** 4 Expressing Interest in a Company**
+###  4 Expressing Interest in a Company
 🟥 **Logged-in users** should be able to express interest in a company.  (In progress)
 🟥 **Sellers should see a list of interested buyers**.  (In progress)
 🟥 **Store interests in a separate Supabase table**.  (In progress)
 
-### ** 5 UI & Styling**
+### 5 UI & Styling
 ✅ Use **TailwindCSS** + **ShadCN/UI** for a **modern & responsive UI**.  
 ✅ Ensure **good user experience** with:  
   - **Form validation**  
   - **Feedback messages**  
 ✅ Maintain a **consistent & professional design**.  
 
-### ** 6 Deployment on Vercel**
+###  6 Deployment on Vercel
 ✅ **Deploy the final project on Vercel**.  
