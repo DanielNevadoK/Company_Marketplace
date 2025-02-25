@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export const LandingPage = () => {
   useEffect(() => {
-    const text = new SplitType("#text");
+    new SplitType("#text");
 
     setTimeout(() => {
       const charAnimation = document.querySelectorAll(".char");
