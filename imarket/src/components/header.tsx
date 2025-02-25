@@ -1,4 +1,3 @@
-import { logout } from "@/app/logout/actions";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
