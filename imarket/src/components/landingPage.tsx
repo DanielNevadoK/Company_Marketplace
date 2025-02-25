@@ -6,23 +6,22 @@ import { Button } from "@/components/ui/button";
 
 export const LandingPage = () => {
   useEffect(() => {
-    // SplitType will split the text in to individual characters. With out having to nest them in the code
-    let text = new SplitType("#text");
+    const text = new SplitType("#text");
 
-    // Had problem with the charAnimation variable, so nested it in with the useEffect so it waits a bit to ensure the DOM update
     setTimeout(() => {
-      let charAnimation = document.querySelectorAll(".char");
+      const charAnimation = document.querySelectorAll(".char");
 
       charAnimation.forEach((char) => {
         char.classList.add("translate-y-full");
       });
+
       gsap.to(".char", {
         y: 0,
         stagger: 0.05,
         delay: 0.02,
         duration: 0.5,
       });
-    }, 50); // Small delay to allow SplitType to process
+    }, 50);
   }, []);
 
   return (
