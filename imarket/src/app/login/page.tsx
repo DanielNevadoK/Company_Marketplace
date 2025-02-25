@@ -1,6 +1,4 @@
-import { Form } from "react-hook-form";
 import { login, signup } from "./actions";
-import Link from "next/link";
 
 
 export default function LoginPage() {
