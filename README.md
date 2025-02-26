@@ -24,7 +24,7 @@ This will be a marketplace for listing companys for sale
 ---
 
 ## **💬 Comments**  
-This was a fun project to work on, and I enjoyed the **5-day deadline**. Most of the tools used to build this full-stack app were new to me. I was already familiar with **React, TypeScript, Tailwind CSS, Fetch API**, and **deploying a website**, but everything else was a **first-time experience**.  
+This was a fun project to work on, and I enjoyed the **5-day deadline**. Most of the tools used to build this full-stack app were new to me. I was already familiar with **React, TypeScript, Tailwind CSS, Fetch API**, and **deploying a website**, but everything else was a **first-time experience**. 
 
 It has been a **great learning opportunity** and has motivated me to explore these **methods** further for future projects. This project has also **ignited a couple of ideas** that I plan to pursue in the future.  
 
@@ -32,6 +32,11 @@ Below, you can see the **project requirements** and their completion status:
 
 ✅ = **Finished**  
 🟥 = **Started or Not Done**  
+
+## ⚠️ Known Issue: Authentication on Deployed Version
+- Authentication works fine **locally** but does not function on **Vercel**.
+- This is likely due to Supabase auth cookies or environment variables.
+- Please test the authentication on `localhost`.
 
 ---
 
